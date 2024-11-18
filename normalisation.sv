@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 15.11.2024 14:36:30
-// Design Name: 
-// Module Name: normalisation
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module normalisation(mantissa_sum, new_exponent, clk, reset, mantissa_final, exponent_final, done_3);
 input [24:0] mantissa_sum;
