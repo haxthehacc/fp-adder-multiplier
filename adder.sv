@@ -25,9 +25,9 @@ wire [7:0] add_new_exponent;
 wire [7:0] cas_new_exponent;
 
 
-reg busy_1=0;
-reg busy_2=0;
-reg busy_3=0;
+reg busy_1=0; //cas
+reg busy_2=0; //addition
+reg busy_3=0; //normalisation
 
 compandshift cas(mantissa_1, mantissa_2, 
                  exponent_1, exponent_2, clk, reset, 
