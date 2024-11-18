@@ -1,24 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 15.11.2024 14:36:30
-// Design Name: 
-// Module Name: addition
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
 
 module addition(shifted_mantissa_1, shifted_mantissa_2, tmp_new_exponent, clk, reset, mantissa_sum, add_new_exponent, done_2);
 input [23:0] shifted_mantissa_1;
