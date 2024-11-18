@@ -1,25 +1,4 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 15.11.2024 14:36:30
-// Design Name: 
-// Module Name: adder
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
 
 module adder(operand_1, operand_2, clk, Sum);
 
@@ -27,7 +6,7 @@ module adder(operand_1, operand_2, clk, Sum);
 input [31:0] operand_1;
 input [31:0] operand_2;
 input clk;
-//input [0:0] reset;
+//input reset;
 output [31:0] Sum;
 reg [31:0] sum;
 wire reset;
