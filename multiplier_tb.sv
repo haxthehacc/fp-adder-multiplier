@@ -28,13 +28,11 @@ initial begin
     // Expected output: 0x40840000
     #100;
 
-    // Test Case 2: 0.5 * -4.0
     operand_1 = 32'h3F000000; // 0.5 in IEEE 754
     operand_2 = 32'hC0800000; // -4.0 in IEEE 754
     // Expected output: 0xC0000000
     #100;
 
-    // Test Case 3: -2.5 * -1.25
     operand_1 = 32'hC0200000; // -2.5 in IEEE 754
     operand_2 = 32'hBF400000; // -1.25 in IEEE 754
     // Expected output: 0x40480000
